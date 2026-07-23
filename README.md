@@ -35,10 +35,16 @@ A partial implementation is provided in the `src/` directory. It uses FastAPI (P
 
 To run the implementation locally, you'll need Python 3.9+.
 
+1. Install dependencies:
 ```bash
-pip install fastapi uvicorn pytest
+pip install -r requirements.txt
+```
+
+2. Run the application:
+```bash
 uvicorn src.main:app --reload
 ```
+*(If `uvicorn` is not recognized, try running: `python -m uvicorn src.main:app --reload`)*
 
 To run tests:
 ```bash
