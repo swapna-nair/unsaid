@@ -47,5 +47,5 @@ pytest tests/
 
 ## Submission Details
 
-- **Author:** [Your Name / Candidate]
+- **Author:** swapna nair
 - **Repository:** This public GitHub repository contains all artifacts requested in the assignment.
